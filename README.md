@@ -20,6 +20,8 @@ Awesome! (This guide assumes that you have [Node.js](https://nodejs.org/en/) ins
   4. Run the application with `npm start`
   5. Click until your heart's content!
 
+The save-game file is located at `$HOME/clickscape.save`. You can edit this file with any decent text editor.
+
 
 # Current Features
 ## Trainable/Upgradable Skills:
