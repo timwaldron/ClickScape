@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../styling/index.css">
+    <title>ClickScape</title>
+  </head>
+  <body onload="mainEngineLogic();">
+
+    <div class="game-window">
+
+      <div class="navbar-panel">
+
+        <div class="navbar-stat-panel">
+          <p>Statistics</p>
+          <p class="resources"><span id="current-skill"></span><span id="current-skill-amount"></span></p>
+          <p class="level"><span>Level: </span><span id="level">?</span></p>
+          <p class="experience"><span>Experience: </span><span id="experience">?</span></p>
+
+          <div id="progressbar-container">
+            <div id="progressbar">
+                <div id="percentage"></div>
+            </div>
+          </div>
+          <span id="remaining-experience"></span>
+        </div>
+
+        <!-- Navbar navigation panel (Upgrades, skilling, bots etc) -->
+        <div class="navbar-portal">
+          <span id="skilling-portal">Skilling</span>
+          <span id="upgrades-portal">Upgrades</span>
+          <span id="bots-portal">Bots</span>
+        </div>
+
+        <div class="navbar-title">
+          <span id="navbar-title">Skilling Locations</span>
+        </div>
+
+
+        <!-- Skilling Panel -->
+        <div id="skilling-panel" class="skilling-panel">
+          <span id="woodcutting-link">Woodcutting</span>
+          <span id="firemaking-link">Firemaking</span>
+          <span id="fishing-link">Fishing</span>
+          <span id="cooking-link">Cooking</span>
+          <span id="mining-link">Mining</span>
+          <span id="smithing-link">Smithing</span>
+        </div>
+
+
+        <!-- Upgrades panel -->
+        <div id="upgrades-panel" class="upgrades-panel">
+          <span id="skill-upgrade-1">Upgrade: <span id="next-upgrade">[Next X]</span></span>
+          <span id="skill-upgrade-9001">Reset Upgrades</span>
+        </div>
+
+
+        <!-- Bots panel -->
+        <div id="bots-panel" class="bots-panel">
+          <span>Bots: <span id="display-bot-amount"></span></span>
+          <span>Bot Speed: <span id="display-bot-speed"></span></span>
+          <small></small>
+
+
+          <span id="bot-upgrade-1">Add bot: <span id="add-bot-new-amount"></span></span>
+          <span id="bot-upgrade-2">Increase Speed: <span id="add-bot-new-speed"></span></span>
+          <!-- <small>Current speed: <span>[1000]</span>ms</small> -->
+          <!-- <span id="skill-upgrade-9001">Reset Upgrades</span> -->
+        </div>
+
+      </div>
+
+      <div id="game-panel" class="game-panel">
+        
+        <div id="click-object" class="click-object"></div>
+
+        <div class="double-click-skill">
+          <div id="main-click-object" class="main-click-object"></div>
+          <div id="sub-click-object" class="sub-click-object"></div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+  <script src="../../engine/main/main.js"></script>
+</html>

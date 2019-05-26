@@ -1,0 +1,38 @@
+.game-panel {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../../resources/menus/nav-panel.png") center center no-repeat;
+}
+
+.click-object {
+  height: 430px;
+  width: 430px;
+  box-sizing: border-box;
+  
+  transform: rotate(0);
+  transition: transform 0.1s ease-in-out;
+}
+
+.double-click-skill {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-click-object {
+  height: 50;
+  width: 50;
+  display: none;
+  background: dodgerblue;
+}
+.sub-click-object {
+  height: 50;
+  width: 50;
+  display: none;
+  background: dodgerblue;
+}

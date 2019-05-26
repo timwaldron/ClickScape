@@ -1,0 +1,25 @@
+.cte-button {
+  width: 220px;
+  height: 80px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -110px;
+
+  background: dodgerblue;
+  border-radius: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cte-button:hover {
+  background: rgb(27, 119, 211);
+  cursor: pointer;
+}
+
+.cte-button p {
+  font-size: 30px;
+}
