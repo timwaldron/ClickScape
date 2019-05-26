@@ -13,8 +13,13 @@ This project was built using [Node.js](https://nodejs.org/en/), with the help fr
 <br>
 
 # Cool! I'd love to play this!
-Awesome!  
-`I need to push to GitHub before I can write this guide.`
+Awesome! (This guide assumes that you have [Node.js](https://nodejs.org/en/) installed).
+  1. Clone this repository.
+  2. Open the cloned folder with Terminal or `cd` into it.
+  3. Install Electron with `npm i electron`
+  4. Run the application with `npm start`
+  5. Click until your heart's content!
+
 
 # Current Features
 ## Trainable/Upgradable Skills:
